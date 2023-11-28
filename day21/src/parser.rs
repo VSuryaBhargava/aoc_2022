@@ -1,4 +1,4 @@
-use std::{collections::HashMap};
+use std::collections::HashMap;
 use utils::{
     nom::{
         branch::alt,
@@ -13,7 +13,8 @@ use utils::{
 
 pub type ParsedOutput = HashMap<MonkeyName, Monkey>;
 
-pub struct Day21;
+#[derive(Default)]
+pub struct Day21 {}
 
 impl ParseInput for Day21 {
     type ParsedType = ParsedOutput;

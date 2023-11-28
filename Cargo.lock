@@ -54,7 +54,15 @@ dependencies = [
 name = "aoc_2022"
 version = "0.1.0"
 dependencies = [
+ "day17",
+ "day18",
+ "day19",
+ "day20",
  "day21",
+ "day22",
+ "day23",
+ "day24",
+ "day25",
  "utils",
 ]
 
@@ -159,7 +167,63 @@ dependencies = [
 ]
 
 [[package]]
+name = "day17"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day18"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day19"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day20"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
 name = "day21"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day22"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day23"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day24"
+version = "0.1.0"
+dependencies = [
+ "utils",
+]
+
+[[package]]
+name = "day25"
 version = "0.1.0"
 dependencies = [
  "utils",
