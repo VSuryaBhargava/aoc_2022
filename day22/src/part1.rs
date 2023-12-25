@@ -1,4 +1,4 @@
-use utils::{problem::SolvePart1, wait_for_input};
+use utils::{clear_screen, problem::SolvePart1, wait_for_input};
 
 use crate::parser::{Direction, Instructions, ParsedOutput, Points, Problem};
 
@@ -9,7 +9,7 @@ pub struct WrapPointState(pub (usize, usize), pub Direction);
 
 #[allow(dead_code)]
 pub fn print_map(map: &[Vec<Points>], problem: &Problem, string: String) {
-    print!("\x1B[2J\x1B[1;1H");
+    clear_screen();
     println!("Position: {:?}", problem.position);
     for (y, row) in map.iter().enumerate() {
         for (x, point) in row.iter().enumerate() {
